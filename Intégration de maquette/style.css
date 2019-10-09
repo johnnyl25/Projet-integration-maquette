@@ -1,0 +1,472 @@
+/**
+ * Fonts
+ */
+ @font-face {
+	font-family: 'SegoeUI-Bold';
+	src: url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),  url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-Bold.woff') format('woff'), url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-Bold.ttf')  format('truetype'), url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-Bold.svg#SegoeUI-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SegoeUI-Light';
+	src: url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),  url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-Light.woff') format('woff'), url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-Light.ttf')  format('truetype'), url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-Light.svg#SegoeUI-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SegoeUI';
+	src: url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),  url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI.woff') format('woff'), url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI.ttf')  format('truetype'), url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI.svg#SegoeUI') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SegoeUI-SemiBold';
+	src: url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),  url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-SemiBold.woff') format('woff'), url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-SemiBold.ttf')  format('truetype'), url('https://bytebucket.org/nabeelmolham/mf-web-dev-2/raw/cad6433b1c7f7251467711385dd207a6c6e9257c/test-task-22-08-2015/assets/fonts/SegoeUI-SemiBold.svg#SegoeUI-SemiBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* General */
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+body span.eblue {
+    color: #4BCAFF;
+}
+
+body .bg-light {
+    background-color: black !important;
+}
+
+a {
+    cursor: pointer;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Navbar */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+body .align-items-center {
+    align-items: center!important;
+}
+body .justify-content-center {
+    justify-content: center!important;
+}
+
+body .justify-content-between {
+    justify-content: space-between!important;
+}
+
+body .d-flex {
+    display: flex!important;
+}
+
+body .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body nav {
+    width: 100%;
+    height: 84px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    opacity: 0.8;
+    margin-top: -5px;
+    padding: 15px !important;
+}
+
+body nav .title {
+    font-size: 2rem;
+}
+
+body nav a {
+    font-size: 15px;
+}
+
+body nav .lienheader {
+    font-size: 20px;
+    font-family: segoe UI;
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    padding: 4px;
+    transition: 0.3s;
+
+}
+
+body nav .lienheader:hover {
+    border: solid #4bcaff;
+    color: #4bcaff;
+}
+
+ body .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+/* Header */
+
+body header {
+    height: 65vh;
+    padding: 0 !important;
+    background: url(img/section-hero.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+body header .imlooking {
+    color: white;
+    font-family: "SegoeUI-Light", serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body header .imlooking p {
+    margin: 3px;
+    font-family: segoe UI;
+    font-size: 42px;
+    font-weight: lighter;
+}
+
+body header .imlooking .bkimlooking {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 15px;
+}
+
+body {
+    padding: 0;
+    font-family: "Segoe UI";
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Section */
+
+body .services {
+    margin: 0;
+    background-color: #4bcaff;
+    padding: 5vh 0vw;
+    color: white;
+}
+
+body h2:after {
+    content: "___";
+    display: block;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+body .services h2 {
+    font-family: segoe UI;
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0;
+    border: 0;
+}
+
+body .services h3 {
+    margin: 5px;
+    font-size: 23px;
+    color: white;
+}
+
+/* Article */
+
+body .portfolio {
+    padding-top: 10vh;
+}
+
+body .portfolio .navport {
+    margin-bottom: 2vh;
+}
+
+body .portfolio .navport .lienport a:hover {
+    border: solid #4bcaff;
+    color: #4bcaff;
+}
+
+body .portfolio .navport .lienport a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: segoe UI;
+    margin: 8px;
+    padding: 6px;
+    transition: 0.3s;
+}
+
+body .img_portfolio {
+    padding-bottom: 5vh;
+}
+
+body .img_portfolio img {
+   height: 100%;
+   width: 100%;
+}
+
+body .portfolio .img_portfolio .ombre_rel {
+    position: relative;
+}
+
+body .portfolio .img_portfolio .hover {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 260px;
+    opacity: 0;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+body .portfolio .img_portfolio .cadre:hover .hover {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+/* Article Default */
+
+body .just-default {
+    background-color: #515f67; 
+}
+
+body .just-default .justselection {
+      padding-top: 5vh;
+      padding-bottom: 5vh; 
+}
+body .just-default .justselection .textselection {
+        font-size: 14px;
+        font-family: segoe UI;
+        text-align: justify;
+        color: #ffffff;
+        padding-bottom: 5vh; 
+}
+body .just-default .justselection .textselection a {
+        text-decoration: none;
+        color: #000000;
+        text-transform: uppercase;
+        border: solid #000000;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 5vh; 
+}
+
+.video-pos {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-left: 80px;
+    padding: 0;
+}
+
+.video-pos img {
+    width: 100%;
+}
+
+.video-src {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Section twitter*/
+
+body .twitter {
+    margin: 0;
+    background-color: #4bcaff;
+    padding: 5vh 0vw;
+    color: white;
+}
+
+body .twitter .logotwitter {
+    font-size: 2rem;
+}
+
+body .texttwitter {
+    font-size: 1.5rem;
+}
+
+body .cheese {
+    font-weight: 700;
+}
+
+/* Section WHO */
+
+body .who {
+    height: 60vh;
+    padding: 0 !important;
+    background: url(img/photographe-who.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+body .who .boitewho {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+body .who .textwho p {
+    font-family: segoe UI;
+    font-size: 1rem;
+}
+
+
+body .who .logosociaux i {
+    border: solid white .5px;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* Section testi */
+
+body .testi {
+    margin: 0;
+    background-color: #ffffff;
+    padding: 5vh 0vw;
+    color: rgb(0, 0, 0);
+}
+
+body .testi .logotesti {
+    font-size: 3rem;
+}
+
+body .texttesti {
+    font-size: 1.5rem;
+}
+
+body .walter {
+    color: #4BCAFF;
+    font-size: 1rem;
+}
+
+/* Formulaire Contact*/
+
+body .contact {
+    height: 85vh;
+    background: url(img/focus.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+body form div .col-md-5 {
+    color: rgba(0, 0, 0, 0);
+}
+
+body .contact .text {
+    font-size: 1rem;
+    font-family: segoe Ui;
+    color: white;
+    padding-top: 15px;
+}
+
+body .contact .fullname {
+    width: 80%;
+    height: 100%;
+}
+
+body .contact .casefull {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: transparent;
+    border: solid 2px white;
+    color: white;
+}
+
+body .contact .casefull2 {
+    height: 216px;
+    width: 100%;
+    background: transparent;
+    border: solid 2px white;
+    color: white;
+}
+
+body .contact .boutonmessage {
+    color: white;
+    font-family: segoe UI;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: #4bcaff;
+    border: none;
+    height: 50px;
+    width: 50%;
+}
+
+/* FOOTER */
+
+body .footer {
+    background-color: #353f47;
+    margin-top: -5px;
+    padding: 50px;
+    font-family: segoe UI;
+    color: #4e5b63;
+}
