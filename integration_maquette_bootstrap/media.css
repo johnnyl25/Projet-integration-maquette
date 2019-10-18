@@ -1,0 +1,124 @@
+/* MEDIA QUERIES */
+
+@media (min-width: 1200px){
+.backgroundsec1 .container {
+    padding-top: 116px;
+    padding-bottom: 438px;
+    }
+}
+
+@media (min-width: 992px){
+    .text-md-left {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px){
+    .margin-neg {
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logomonde {
+        position: absolute;
+    }
+}
+@media (min-width: 768px) {
+    .sixreasonsh2 {
+        text-align: left;
+        margin-left: 100px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .sixreasonsp {
+        text-align: left;
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bookh1{
+        text-align: left;
+        font-size: 40px;
+        line-height: 60px;
+}
+
+@media (min-width: 768px) {
+    .bookh2 {
+        text-align: left;
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bookp {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px){
+    .bookp {
+        font-size: 18px;
+    }
+}
+
+}
+
+@media (min-width: 768px) {
+    .textcarousel {
+        color: #fff;
+        font-size: 30px;
+        font-style: italic;
+    }
+    
+    .textcarousel2 {
+        padding-top: 30px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    #footernav .icon-reseau {
+        font-size: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 10px;
+        margin-bottom: 40px;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn-primary-2 {
+        line-height: 1;
+        height: 38px;
+        background: #fc8f44;
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding-top: 9px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-bottom: 9px; /* Some padding */
+        border-radius: 70px; /* Rounded corners */
+        font-size: 22px; /* Increase font size */
+    }
+}
+
+@media (min-width: 992px) {
+     #buttoncacher {
+        display: none;
+    }
+}
